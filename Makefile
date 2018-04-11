@@ -17,3 +17,7 @@ lib/cdvd.irx: iop | lib
 lib/libcdvdfs.a: ee | lib
 	@echo Building EE client
 	$(MAKE) -C $<
+
+install:
+	mkdir -p $(PS2DEV)/libcdvd/lib || true
+	cp lib/* $(PS2DEV)/libcdvd/lib/
