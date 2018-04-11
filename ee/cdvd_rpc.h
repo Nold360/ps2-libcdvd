@@ -2,7 +2,7 @@
 #define _CDVD_RPC_H
 
 // include the common definitions
-#include "../common/cdvd.h"
+#include <cdvd.h>
 
 #ifdef __cplusplus
 extern "C" {
